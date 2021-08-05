@@ -1,0 +1,14 @@
+.wrap-page {
+  .search-form {
+    display: flex;
+    flex-wrap: wrap;
+    .ant-form-item {
+      flex-shrink: 0;
+      margin-bottom: 15px;
+      width: 220px;
+    }
+  }
+  .table {
+    margin: 0 20px;
+  }
+}
